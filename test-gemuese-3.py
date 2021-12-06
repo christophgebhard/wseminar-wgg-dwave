@@ -31,7 +31,7 @@ J = {
 response = sampler.sample_ising(
     h, 
     J, 
-    num_reads=1000,
+    num_reads=100,
 )
 print(response)
 dwave.inspector.show(response)
